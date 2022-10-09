@@ -48,7 +48,6 @@ export default function ShoppingPage({}) {
                     value={ product.count }
                     >
                         <ProductImage className="custom-image"/>
-                        <ProductTitle className="text-bold text-16 upperCase" />
                         <ProductButtons 
                             className="custom-buttons" 
                             style={{ display: 'flex', justifyContent: 'center'}}
