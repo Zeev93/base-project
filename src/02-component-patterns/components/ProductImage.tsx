@@ -11,7 +11,7 @@ export interface Props{
     style?: CSSProperties
 }
 
-export const ProductImage = ({img, className, style}:Props) => {
+export const ProductImage = ({ img, className, style }:Props) => {
 
     const {product} = useContext(ProductContext)
 
